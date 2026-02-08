@@ -3,7 +3,16 @@ name = "rs-imghead2mime"
 version = "0.1.0"
 edition = "2024"
 
+description  = "Guess the MIME type from the header bytes."
+license      = "Apache-2.0"
+repository   = "https://github.com/takanoriyanagitani/rs-imghead2mime"
+homepage     = "https://github.com/takanoriyanagitani/rs-imghead2mime"
+documentation = "https://docs.rs/rs-imghead2mime/latest"
+keywords     = ["image", "mime", "guess"]
+
 exclude = [
+  "opt.wasm",
+  "rs-imghead2mime.wasm",
 ]
 
 [lints.rust]
